@@ -183,7 +183,7 @@ aside {
   width: 55%;
 }
 
-.features h3  {
+.features h2  {
   padding: 50px 0;
 }
 
@@ -476,7 +476,36 @@ aside {
 
 
    @media only screen and (min-width: 1200px) {
-   /*Desktop styles here*/
+   /* Desktop Styles here */
+      .content-wrapper {
+        max-width: 960px;
+      }
+
+      .hero-area h1 {
+        width: 55%;
+      }
+
+      aside .content-wrapper {
+        justify-content: flex-end;
+      }
+
+      aside .content-wrapper .form-description,
+      aside .content-wrapper .form {
+        width: 27%;
+      }
+
+      .features h2 {
+        width: 71%;
+      }
+
+      .features article {
+        flex-basis: 15%;
+      }
+
+      .reviews article div {
+        width:77%;
+      }
+
    }
 
 @media print,
