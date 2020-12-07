@@ -98,11 +98,16 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav{
@@ -110,11 +115,17 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
+}
+
+header .divider {
+  width: 90%;
 }
 
 footer .social-icons {
@@ -129,15 +140,32 @@ footer .social-icons p{
   align-items: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
 
 /* MOBILE STYLES - HOMEPAGE */
 
 /*Hero-area*/
 
+.content-wrapper{
+  width:90%;
+}
+
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 55px 0;
+}
+
+form {
+  padding: 30px 0;
 }
 
 /* Aside */
@@ -150,6 +178,18 @@ aside {
 }
 
 /* Features */
+
+.features article {
+  width: 55%;
+}
+
+.features h3  {
+  padding: 50px 0;
+}
+
+.features p{
+  margin: 0;
+}
 
 .features-items {
   display: flex;
@@ -170,6 +210,10 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 80%;
 }
 
 /* ===========================================
