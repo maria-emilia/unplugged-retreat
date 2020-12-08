@@ -135,11 +135,11 @@ textarea {
    }
 
    img {
-
+   	width: 100%;
    }
 
    figure {
-
+           margin: 0;
    }
 
    address {
@@ -150,7 +150,6 @@ textarea {
      width:90%;
      margin:50px 0;
    }
-
 
 /* --- Base header -footer styles ---*/
 
@@ -232,6 +231,16 @@ footer .copyright {
 
 /* MOBILE STYLES - HOMEPAGE */
 
+/*unplugged logo */
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 /*Hero-area*/
 
 .hero-area {
@@ -284,6 +293,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/raw.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2  {
@@ -307,6 +318,14 @@ input[type=button] {
 }
 
 /*Reviews*/
+
+.reviews article figure {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 .reviews {
   display: flex;
@@ -478,6 +497,14 @@ input[type=button] {
 
     /* Header */
 
+    header figure {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
     header {
         justify-content: space-around;
         padding: 33px 0;
@@ -538,6 +565,14 @@ input[type=button] {
 
     .reviews article div {
         width: 49%;
+    }
+
+    .reviews article figure {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
     }
 
     /* Footer */
@@ -612,6 +647,14 @@ input[type=button] {
         max-width: 960px;
       }
 
+      header figure {
+          width: 24%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+      }
+
       .hero-area h1 {
         width: 60%;
       }
@@ -635,6 +678,14 @@ input[type=button] {
 
       .reviews article div {
         width:42%;
+      }
+
+      .reviews article figure {
+          width: 40%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
       }
 
       /* ==========================================================================
