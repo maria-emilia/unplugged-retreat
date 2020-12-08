@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* General Styles */
+   /* General Global Styles */
 
    html {
        font-size: 16px;
@@ -238,6 +238,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unsplash.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 /* Aside */
