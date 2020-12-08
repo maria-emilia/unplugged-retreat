@@ -224,6 +224,11 @@ footer p {
   margin: 0;
 }
 
+footer .social-icons i {
+  color: #527158;
+	font-size: 2.25em;
+}
+
 footer .copyright {
   margin: 20px 0;
   text-align: center;
@@ -300,6 +305,11 @@ input[type=button] {
 .features h2  {
   margin-bottom: 60px;
 }
+
+.features i {
+      font-size: 3.75em;
+      margin-bottom: 40px;
+    }
 
 .features article {
   width: 63%;
@@ -561,10 +571,6 @@ input[type=button] {
 
     /* Features */
 
-  .features i {
-	      font-size: 3.75em;
-        margin-bottom: 40px;
-      }
 
     .features article {
         display: flex;
@@ -610,6 +616,12 @@ input[type=button] {
 
     footer .contact {
         margin-bottom: 0;
+    }
+
+    footer .social-icons i {
+      color: #527158;
+    	font-size: 2.25em;
+      margin: 20px;
     }
 
     footer .copyright {
