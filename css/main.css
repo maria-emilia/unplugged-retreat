@@ -104,7 +104,7 @@ textarea {
    ol {
         list-style-type: none;
         margin: 0;
-        padding: 0:
+        padding: 0;
    }
 
    a {
@@ -855,7 +855,6 @@ input[type=button] {
           font-size: 1.125em;
           line-height: 1;
       }
-    }
 
    }
 
